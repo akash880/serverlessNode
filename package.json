@@ -1,0 +1,20 @@
+{
+  "name": "woovly-serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "start": "./node_modules/.bin/serverless offline -s production-5",
+    "debug": "set SLS_DEBUG=* && node --inspect /usr/local/lib/node_modules/serverless/bin/serverless offline -s production-6"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.770.0",
+    "lambda-hooks": "^0.2.0",
+    "serverless-pseudo-parameters": "^2.5.0",
+    "uuid": "^8.3.1",
+    "yum": "^0.1.1",
+    "yup": "^0.29.3"
+  }
+}
